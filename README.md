@@ -22,12 +22,12 @@ A divisão de responsabilidades foi de forma a garantir um código limpo, com f�
 
 Rodando a API em seu ambiente de desenvolvimento:
 
-1.  **Instalação**
+1.  **Instalação**:
 	Dentro da pasta do projeto, instale as dependências listadas no package.json com o comando:
 
     `npm install`
 
-2.  **Variáveis de Ambiente**
+2.  **Variáveis de Ambiente**:
     Crie um arquivo `.env` em `src/config/` ou modifique os valores definidos nos arquivos `server.ts` e `src/database/dataSource.ts` e preencha com suas credenciais do PostgreSQL:
 
         `API_PORT=6060`
@@ -39,7 +39,7 @@ Rodando a API em seu ambiente de desenvolvimento:
         `POSTGRES_SYNCHRONIZE=true`
         `POSTGRES_LOGGING=true`
 
-3.  **Execução**
+3.  **Execução**:
     Para iniciar o servidor com nodemon e tsx, execute:
 
     `npm run dev`
