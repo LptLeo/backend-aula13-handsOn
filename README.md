@@ -30,14 +30,14 @@ Rodando a API em seu ambiente de desenvolvimento:
 2.  **Variáveis de Ambiente**:
     Crie um arquivo `.env` em `src/config/` ou modifique os valores definidos nos arquivos `server.ts` e `src/database/dataSource.ts` e preencha com suas credenciais do PostgreSQL:
 
-        `API_PORT=6060`
-        `POSTGRES_HOST=localhost`
-        `POSTGRES_PORT=5432`
-        `POSTGRES_USER=postgres`
-        `POSTGRES_PASSWORD=123`
-        `POSTGRES_DATABASE=mundo_geek_db`
-        `POSTGRES_SYNCHRONIZE=true`
-        `POSTGRES_LOGGING=true`
+        API_PORT=6060
+        POSTGRES_HOST=localhost
+        POSTGRES_PORT=5432
+        POSTGRES_USER=postgres
+        POSTGRES_PASSWORD=123
+        POSTGRES_DATABASE=mundo_geek_db
+        POSTGRES_SYNCHRONIZE=true
+        POSTGRES_LOGGING=true
 
 3.  **Execução**:
     Para iniciar o servidor com nodemon e tsx, execute:
