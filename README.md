@@ -25,7 +25,7 @@ Rodando a API em seu ambiente de desenvolvimento:
 1.  **Instalação**:
 	Dentro da pasta do projeto, instale as dependências listadas no package.json com o comando:
 
-        `npm install`
+        npm install
 
 2.  **Variáveis de Ambiente**:
     Crie um arquivo `.env` em `src/config/` ou modifique os valores definidos nos arquivos `server.ts` e `src/database/dataSource.ts` e preencha com suas credenciais do PostgreSQL:
@@ -42,4 +42,4 @@ Rodando a API em seu ambiente de desenvolvimento:
 3.  **Execução**:
     Para iniciar o servidor com nodemon e tsx, execute:
 
-        `npm run dev`
+        npm run dev
