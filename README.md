@@ -1,3 +1,18 @@
+# 🛒 Mundo Geek - API de Gerenciamento de Inventário
+### 📋 Sobre o Projeto
+
+Este projeto foi desenvolvido para atender a uma necessidade real de negócio da "Mundo Geek", uma loja especializada em itens de cultura pop que enfrentava dificuldades com o controle manual de estoque.
+
+A solução consiste em uma API robusta e escalável que permite a organização estratégica de produtos por categorias, otimizando o gerenciamento de inventário e garantindo a confiabilidade dos dados para o proprietário.
+
+### 🎯 Objetivos de Negócio Atendidos
+
+- **Eficiência Operacional**: Substituição do controle manual por um sistema automatizado de CRUD.
+
+- **Integridade de Dados**: Implementação de relacionamentos 1:N (uma categoria para muitos produtos) e validações rigorosas para evitar erros de inventário.
+
+- **Padronização Técnica**: Desenvolvimento focado em documentação clara e arquitetura organizada, facilitando futuras expansões do sistema.
+
 ### 🧠 Decisões de Design e Abordagens
 
 As escolhas técnicas para "Mundo Geek" procuram criar um sistema confiável, manutenível e expansível.
